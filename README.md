@@ -1,28 +1,66 @@
-# Task-Manager-Web-App
-The task manager web application is a simple, server-rendered system built to let users create, organize, and track tasks through a clean web interface. 
+# 👋 Hi, I'm Gift Mollel
 
-👤**Author Information**
-Name: Gift Mollel
-University: Mzumbe University
-Programme: Bachelor of Science in Information, Technology and Systems (BSc. ITS)
-Year of Study: Second Year
-Course: Introduction to Web Programming (CSS 212)
-Project: Task Manager Web Application (Individual Assignment)
+🎓 **BSc. Information Technology & Systems (ITS)** | Second Year  
+📍 Mzumbe University, Morogoro, Tanzania  
 
-📝**Project Overview**
-The Task Manager Web Application is a simple, server-rendered system built to let users create, organize, and track tasks through a clean web interface. It uses PHP for server logic, a MySQL database for persistent storage, standard HTML and CSS for the user interface, and minimal JavaScript for client-side validation. The design focuses on straightforward functionality: user accounts, task CRUD operations, filtering and searching, and a small admin area for global management.
+## 🚀 About Me
 
-🗂️**Application Structure**
-The application is organized as a collection of PHP pages that each handle a single responsibility: authentication, task listing and filtering, task creation and editing, and administrative actions. Database access is performed through a secure database library with prepared statements to avoid SQL injection, and sessions are used to track logged-in users and their roles. Tasks are stored with attributes such as title, description, due date, priority, category, status, and an approval field that supports administrative review workflows.
+I am a second-year student passionate about web development. This is where I share my coursework projects and personal learning journey.
 
-👨‍💻**User Flow**
-After registering and signing in, the user sees a dashboard where they can view, search, filter, and sort their tasks. They can add a new task by filling a simple form with title, description, category, priority, and due date. Users can edit, mark as done or pending, delete, or export their tasks to a CSV file. The dashboard also shows task counts and completion percentage, and it works well on small screens.
+## 📂 Current Project: Task Manager Web App
 
-👑**Administrator Features**
-Admins can manage all users and all tasks. They can promote or demote users, delete accounts, edit any task, and change approval status. All admin actions are recorded in an activity log. The first registered user automatically becomes an admin if no admin exists, which makes initial setup easy.
+A PHP & MySQL web application built for my **Introduction to Web Programming (CSS 212)** course.
 
-🔒**Security and Deployment**
-Passwords are hashed, database queries use prepared statements to prevent SQL injection, and outputs are escaped to reduce XSS risks. For production, add CSRF protection, move database credentials to environment variables, enable HTTPS, and implement rate limiting with stronger password rules.
+## 📂 Current Project: Task Manager Web App
 
-🚀**How to Run the System**
-Create the database and tables using the provided schema, then configure the database connection for your environment. Place the application under a PHP-enabled web server, and users can register and start using the task manager.
+A simple, server-rendered system built to let users create, organize, and track tasks through a clean web interface. built for my **Introduction to Web Programming (CSS 212)** course at Mzumbe University.
+
+**Tech Stack:** PHP, MySQL, HTML, CSS, JavaScript
+
+### ✨ Features
+
+**For Regular Users:**
+- User registration and secure login
+- Create, edit, and delete tasks
+- Mark tasks as done or pending
+- Search, filter, sort, and export tasks to CSV
+- View task counts and completion percentage
+- Responsive design works on mobile and tablet screens
+
+**For Administrators:**
+- Manage all users and all tasks
+- Promote or demote users
+- Delete any user account
+- Edit any task and adjust approval status
+- All admin actions recorded in an activity log
+- First registered user automatically becomes admin (no manual database setup needed)
+
+### 🔒 Security Features
+
+- **Password Protection:** User passwords are stored using a secure hashing function
+- **SQL Injection Prevention:** All database queries use prepared statements
+- **XSS Protection:** Output is properly escaped before displaying in the browser
+- **Session Management:** User sessions track login status and user roles
+
+### 🚀 Production Recommendations
+
+For deploying this application in a real environment, the following are recommended:
+- Add CSRF protection for all forms
+- Move database credentials to environment variables (not in web-accessible files)
+- Enable HTTPS encryption
+- Implement rate limiting
+- Enforce stronger password rules
+
+### 🛠️ How to Run
+
+1. Create the database and tables using the provided SQL schema
+2. Configure the database connection for your environment
+3. Place all files under a PHP-enabled web server
+4. Users can register and start using the task manager immediately
+
+## 📫 Connect With Me
+
+- GitHub: [GMollel](https://github.com/gmollel325)
+- Email: [giftmollel325@gmail.com]
+
+*This README will grow as I learn more!... Thank You!!*
