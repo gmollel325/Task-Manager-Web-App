@@ -9,11 +9,11 @@ I am a second-year student passionate about web development. This is where I sha
 
 ## 📂 Current Project: Task Manager Web App
 
-A PHP & MySQL web application built for my **Introduction to Web Programming (CSS 212)** course.
+A PHP & MySQL web application built for my **Introduction to Web Programming (CSS 221)** course.
 
 ## 📂 Current Project: Task Manager Web App
 
-A simple, server-rendered system built to let users create, organize, and track tasks through a clean web interface. built for my **Introduction to Web Programming (CSS 212)** course at Mzumbe University.
+A simple, server-rendered system built to let users create, organize, and track tasks through a clean web interface. built for my **Introduction to Web Programming (CSS 221)** course at Mzumbe University.
 
 **Tech Stack:** PHP, MySQL, HTML, CSS, JavaScript
 
